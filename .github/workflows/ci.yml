@@ -22,3 +22,5 @@ jobs:
           npm install
           npx prisma db push --force-reset
           npm run test:unit
+      - name: Deploy
+        
